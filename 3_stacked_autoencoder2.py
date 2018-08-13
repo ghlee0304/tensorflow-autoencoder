@@ -11,7 +11,7 @@ PRE_EPOCH = 5
 BATCH_SIZE = 32
 
 
-class Stacked_autoencoder1(object):
+class Stacked_autoencoder2(object):
     def __init__(self, sess):
         tf.set_random_seed(0)
         self._build_net()
@@ -154,7 +154,7 @@ def main():
     x_train = dataset['train_data']
     x_test = dataset['test_data']
 
-    m = Stacked_autoencoder1(sess)
+    m = Stacked_autoencoder2(sess)
     m.fit(x_train)
 
     x_pred = m.predict(x_test[:25])
