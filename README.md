@@ -1,3 +1,9 @@
+# Requirements
+
+<p> visdom </p>
+<p> tensorflow </p>
+
+
 # Paper List
 
 *Model* | *Name* | *Author* | *Years*
